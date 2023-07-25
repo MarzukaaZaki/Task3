@@ -4,6 +4,8 @@ const reverseString = (inputString) => {
     {
         reversedString+=inputString[i];
     }
+    return reversedString;
 }
 
-const inputString = "Hello World"; 
+const inputString = "&^$5"; 
+console.log(reverseString(inputString));
